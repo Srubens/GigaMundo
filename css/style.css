@@ -1,0 +1,320 @@
+*{
+    font-family: 'Open Sans', sans-serif, 'Arial';
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+h1{
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+object,
+embed,
+video,
+iframe,
+iframe['style']{
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.clear{
+    clear: both;
+}
+
+.conteudo{
+    width: 100%;
+    float: left;
+}
+
+/* HEADER TOPO */
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+}
+
+.header_info div{
+    margin-top: 14px;
+}
+
+.header_bg, .header_topo{
+    background: #8fb0ce !important;
+    width: 100%;
+}
+
+.header_menu{
+    justify-content: flex-end;
+}
+
+.header_menu_list{
+    display: flex;
+}
+
+.header_ul a{
+    color: #fff;
+    font-size: 1.1em;
+}
+
+/* HEADER TOPO */
+
+/* SLIDE */
+
+.carousel-indicators .active{
+    background: red;
+}
+
+.carousel-indicators li{
+    background: #000;
+}
+
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+    background: #8fb0ce;
+    border-radius: 50%;
+    font-size: 2em;
+}
+
+.carousel-control-next-icon i, 
+.carousel-control-prev-icon i{
+    display: flex;
+}
+
+.slide_text{
+    color:#000;
+    width: 400px;
+    flex-wrap: nowrap;
+    top: 80px;
+    margin-left: 520px;
+}
+
+.slide_text p{
+    font-size: 1.1em;
+}
+
+/* SLIDE */
+
+/* TESTE PRODUTOS SLIDE */
+.produtos-control-next{
+    right: 0;
+}
+
+.produtos-control-next,
+.produtos-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 2% !important;
+    color: black;
+    text-align: center;
+    opacity: .5;
+}
+
+.test_produtos_bg{
+    background:#cde5fb;
+    padding: 40px 0; 
+}
+
+.test_produtos_info img{
+    margin-bottom: 10px;
+}
+
+
+/* TESTE PRODUTOS SLIDE */
+
+
+/* PRODUTOS DESTAQUE */
+
+.produtos_bg{
+    background:#cde5fb;
+    width: 100%;
+}
+
+.produto_info{
+    margin-top: 10px;
+    padding: 40px 0;
+    cursor:pointer;
+}
+
+.produto_info img{
+    margin-bottom: 10px;
+}
+
+/* PRODUTOS DESTAQUE */
+
+/* ENTREGAS */
+
+.entrgas_bg{
+    width: 100%;
+    height: 420px;
+    padding: 20px 0;
+}
+
+.entregas_info{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.entregas_info img{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+}
+
+/* ENTREGAS */
+
+
+/* DEPOIMENTOS */
+
+.depoimentos_bg{
+    background:#3d464f;
+    height: 450px;
+}
+
+.depoimentos_info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+
+.depoimentos_info img{
+    margin-top: 50px;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.depoimentos_text{
+    color:#fff;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 25px;
+}
+
+
+
+
+/* DEPOIMENTOS */
+
+
+
+/* NEWSLETTER */
+
+.news_letter_bg{
+    height: 420px;
+}
+
+.news_letter_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.news_letter_text h1{
+    width: 490px;
+    text-align: center;
+}
+
+.news_letter_text img{
+    margin-bottom: 14px;
+}
+
+.news_letter_info{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.jform_letter{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.jform_letter span{
+    font-size: .80em;
+    color:#111;
+    text-align: center;
+}
+
+.jform_letter input{
+    margin-left: 8px;
+}
+
+.jform_letter button{
+    text-align: center;
+    margin-left: 20px;
+}
+
+.jform_letter input,
+.jform_letter span{
+    margin-bottom: 10px;
+}
+
+.news_letter_img{
+    margin-top: -50px;
+}
+
+/* NEWSLETTER */
+
+/* FOOTER */
+
+.footer_bg{
+    background:#3f3f3f;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer_address{
+    width: 290px;
+    text-align: center;
+    color:#fff;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_list li{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12px;
+    font-size: 2em;
+}
+
+
+/* FOOTER */
