@@ -29,8 +29,14 @@ img{
 }
 
 .conteudo{
-    width: 100%;
+    width: 92%;
     float: left;
+    margin: 0 4%;
+    padding: 20px 0;
+}
+
+.fontezero{
+    font-size: 0em;
 }
 
 /* HEADER TOPO */
@@ -106,29 +112,8 @@ img{
 /* SLIDE */
 
 /* TESTE PRODUTOS SLIDE */
-.produtos-control-next{
-    right: 0;
-}
 
-.produtos-control-next,
-.produtos-control-prev {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: 2% !important;
-    color: black;
-    text-align: center;
-    opacity: .5;
-}
+
 
 .test_produtos_bg{
     background:#cde5fb;
@@ -185,21 +170,65 @@ img{
 /* ENTREGAS */
 
 
-/* DEPOIMENTOS */
+/* DEPOIMENTO */
 
-.depoimentos_bg{
-    background:#3d464f;
+.depoimento_bg{
+    background: #3d464f;
     height: 450px;
+    position: relative;
 }
 
-.depoimentos_info{
+.depoimento_slide_control{
+    position: absolute;
+    top:48%;
+    width: 88%;
+}
+
+.depoimento_slide_nav{
+    position: absolute;
+    padding: 0px 15px;
+    font-size: 2em;
+    background: rgba(255,255,255,.6);
+    cursor:pointer;
+    z-index: 89;
+}
+
+.depoimento_slide_nav:hover{
+    background: #418ee0;
+}
+
+.depoimento_slide_nav.back{
+    left:0;
+    margin-left: 5px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.depoimento_slide_nav.go{
+    right:0;
+    margin-right: 5px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.depoimento_slide_item{
+    display: none;
+}
+
+.depoimento_slide_item.ativo{
+    display: block;
+}
+
+.depoimento_slide_info{
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 15px;
-    flex-direction: column;
 }
 
-.depoimentos_info img{
+.depoimento_slide_info img{
     margin-top: 50px;
     height: 120px;
     width: 120px;
@@ -208,19 +237,14 @@ img{
     margin-bottom: 20px;
 }
 
-.depoimentos_text{
+.depoimento_text{
     color:#fff;
     text-align: center;
-    width: 400px;
+    width: 40%;
     margin-bottom: 25px;
 }
 
-
-
-
-/* DEPOIMENTOS */
-
-
+/* DEPOIMENTO */
 
 /* NEWSLETTER */
 
